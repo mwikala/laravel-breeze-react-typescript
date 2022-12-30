@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "strict": true,
+        "noImplicitAny": false,
+        "jsx": "preserve",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+
+        "types": [
+            "vite/client"
+        ],
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}
